@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 
-import { Location } from "../../redux/api/locationsApi";
+import { Location } from "../../redux/types";
 import {
   addFavorite,
   removeFavorite,
