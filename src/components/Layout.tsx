@@ -153,9 +153,9 @@ function ResponsiveAppBar() {
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div>
       <ResponsiveAppBar />
-      <main className="flex-1 p-4">{children}</main>
+      <Box sx={{ p: 2 }}>{children}</Box>
     </div>
   );
 }

@@ -28,7 +28,6 @@ import {
   setZipCodes,
 } from "../../redux/searchSlice";
 
-
 export default function Filters({
   setPage,
 }: {
@@ -114,7 +113,7 @@ export default function Filters({
       </Grid2>
       <Grid2 size={{ xs: 12, md: 4 }}>
         <SearchField
-          label="ZipCode"
+          label="ZIP Codes"
           value={selectedZipCodes.join(",")}
           onChange={(value) =>
             dispatch(setZipCodes(value ? value.split(",") : []))
