@@ -75,7 +75,11 @@ export default function Filters({
           />
           <Tooltip
             title={
-              selectedSort === "asc" ? "Ascending A to Z" : "Descending Z to A"
+              <>
+                {selectedSort === "asc"
+                  ? `Ascending${selectedSortField !== "age" ? " A to Z" : ""}`
+                  : `Descending${selectedSortField !== "age" ? " Z to A" : ""}`}
+              </>
             }
           >
             <IconButton

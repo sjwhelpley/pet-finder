@@ -27,3 +27,4 @@ Can view in the browser at `http://localhost:5173`.
 
 - Enhance responsive design for better mobile experience (particularly with the search filters).
 - Further the location search functionality. Integrate with `/locations/search` endpoint to get the zipcodes associated to city & states provided by user.
+- Develop authentication flow further to clear persisted cache on logout.
